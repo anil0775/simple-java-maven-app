@@ -36,7 +36,7 @@ public class AppTest
         try {
             assertEquals("This is my first Jenkins Project!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" is not \"This is my first Jenkins Project!\"");
+            fail("\"message\" is not \"Hello World!\"");
         }
     }
 
